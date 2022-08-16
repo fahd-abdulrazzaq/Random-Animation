@@ -1,0 +1,39 @@
+.nav div{
+    border: 1px solid orange;
+    padding: 10px;
+    display: flex;
+    width: 80%;
+    margin: 11px;
+    justify-content: space-between;
+    border: none;
+    
+
+
+    
+    
+    
+    
+}
+.ab{ flex: 1;
+    
+
+}
+.bc{
+flex: 1;
+}
+.cd{
+    flex:1;
+    
+
+}
+
+@media  (max-width: 760px){
+    .nav{
+        width:100%;
+        flex-direction: column;
+
+        
+    }
+
+    
+}
